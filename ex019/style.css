@@ -1,0 +1,28 @@
+@charset "UTF-8";
+h1 {
+    background-color: antiquewhite;
+    height: 70px;
+    width: 370px;
+
+    border: 0.5px solid aqua;
+
+    padding: 2px 2px 2px 2px;
+
+    margin: auto;
+
+    outline: 0.5px dashed rgb(105, 151, 125);
+}
+a {
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: blue;
+    color: rgb(255, 0, 234);
+
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+}
+a:hover{
+    color: blue;
+}

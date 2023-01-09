@@ -1,0 +1,158 @@
+@charset "8-UTF";
+
+body{ 
+    background: linear-gradient(68.15deg, #8a6bb3 16.62%, #263f77 85.61%);
+}
+.primeiro-play{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    padding: 38.4119px;
+    gap: 28.81px;
+
+    position: absolute;
+    width: 266.48px;
+    height: 498px;
+    left: 191px;
+    top: 66px;
+
+    background: rgb(18, 0, 43);
+    border: 2px solid black;
+    border-radius: 9px;
+
+}
+
+.foto1{
+    box-sizing: border-box;
+
+    width: 195px;
+    height: 195px;
+
+    border-radius: 6px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.música-play-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 9px;
+
+    width: 189px;
+    height: 52.6px;
+
+    flex: none;
+    order: 0;
+    align-items: stretch;
+    flex-grow: 0;
+}
+.musica{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 171px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+
+.musica > h1{
+    width: 171px;
+    height: 24px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24.0074px;
+    line-height: 100%;
+
+
+
+    color: #E1E1E6;
+
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.banda{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 155px;
+    height: 19px;
+
+    opacity: 0.67;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+.banda> h2{
+    width: 155px;
+    height: 19px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.2059px;
+    line-height: 100%;
+    /* or 19px */
+
+
+    color: #E1E1E6;
+
+
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+
+.barra-de-musica{
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 50.42px;
+
+    width: 189.66px;
+    height: 28.81px;
+
+
+
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.temporizador{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 9.6px;
+
+    width: 189.66px;
+    height: 38.6px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
