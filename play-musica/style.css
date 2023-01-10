@@ -1,8 +1,9 @@
 @charset "8-UTF";
 
 body{ 
-    background: linear-gradient(68.15deg, #8a6bb3 16.62%, #263f77 85.61%);
+    background: linear-gradient(68.15deg, #8a6bb3 16.62%, #263f77 85.61%);  
 }
+
 .primeiro-play{
     display: flex;
     flex-direction: column;  
@@ -156,3 +157,168 @@ body{
     align-self: stretch;
     flex-grow: 0;
 }
+
+.segundo-play{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    padding: 28.8089px;
+    gap: 28.81px;
+
+
+    position: absolute;
+    width: 357.71px;
+    height: 266.68px;
+    left: 560.48px;
+    top: 66px;
+
+    background: rgb(18, 0, 43);
+    border: 2px solid black;
+    border-radius: 9px; }
+
+.play-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 28.81px;
+
+    width: 300.09px;
+    height: 84.03px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.foto2{
+    width: 84.03px;
+    height: 84.03px;
+    border-radius: 6.00185px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.segunda-musica > h1{
+    width: 171px;
+    height: 24px;
+
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    margin-bottom: 6px;
+    color: #E1E1E6;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.segunda-musica > h2{
+    width: 155px;
+    height: 19px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.2059px;
+    line-height: 100%;
+    margin-top: 6px;
+    
+    color: #E1E1E6;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.terceiro-play{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    padding: 28.8089px;
+    gap: 28.81px;
+
+
+    position: absolute;
+    width: 357.71px;
+    height: 172px;
+    left: 560.48px;
+    top: 412px;
+
+    background: rgb(18, 0, 43);
+    border: 2px solid black;
+    border-radius: 9px; }
+
+.play-three{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 28.81px;
+
+    width: 300.09px;
+    height: 84.03px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.foto2{
+    width: 84.03px;
+    height: 84.03px;
+    border-radius: 6.00185px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.terceira-musica > h1{
+    width: 171px;
+    height: 24px;
+
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    margin-bottom: 6px;
+    color: #E1E1E6;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.terceira-musica > h2{
+    width: 155px;
+    height: 19px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.2059px;
+    line-height: 100%;
+    margin-top: 6px;
+    
+    color: #E1E1E6;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+
+
