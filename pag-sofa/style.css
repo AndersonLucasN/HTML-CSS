@@ -1,0 +1,28 @@
+@charset "8-UTF";
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    width: 281px;
+    height: 498px;
+}
+
+.descrição {}
