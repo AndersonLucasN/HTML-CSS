@@ -1,5 +1,6 @@
 @charset "UTF-8";
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,16 +8,27 @@
 
 :root {
     --color-1: azure;
-    --bg-url:(Mobile/Background.jpg);
+    --bg-url: url(Mobile/Background.jpg);
+    --stroke-color: rgba(255, 255, 255, 0.5);
+    --surface-color: rgba(255, 255, 255, 0.1);
+    --surface-color-hover: rgba(255, 255, 255, 0.05);
+    --height-color-hover: rgba(255, 255, 255, 0.2);
+    --switch-bg-url: url(Mobile/sol.svg);
+
 }
 
-.light{
-    --color-1:black;
-    --bg-url:(Mobile/Background.jpg);
+.light {
+    --color-1: black;
+    --bg-url: url(Mobile/Background-light.jpg);
+    --stroke-color: rgba(0, 0, 0, 0.5);
+    --surface-color: rgba(0, 0, 0, 0.05);
+    --surface-color-hover: rgba(0, 0, 0, 0.02);
+    --height-color-hover: rgba(0, 0, 0, 0.1);
+    --switch-bg-url: url(Mobile/lua.svg);
 }
 
 body {
-    background-image: url(Mobile/Background.jpg);
+    background-image: var(--bg-url);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -29,7 +41,7 @@ body {
 body * {
     font-family: 'Inter', sans-serif;
     color: var(--color-1);
-   
+
 }
 
 
@@ -56,17 +68,54 @@ body * {
     margin-top: 8px;
 }
 
-ul{
+.switch {
+    position: relative;
+    width: 64px;
+    margin: 4px auto;
+}
+
+
+.switch button {
+    width: 32px;
+    height: 32px;
+    background: white var(--switch-bg-url) no-repeat center;
+    border: 0;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.light .switch button {
+
+    right: 0;
+    left: initial;
+}
+
+.switch span {
+    display: block;
+    width: 64px;
+    height: 24px;
+    background: var(--surface-color);
+    border: 1px solid var(--stroke-color);
+    backdrop-filter: blur(4px);
+    border-radius: 9999px;
+}
+
+ul {
     list-style: none;
 
     display: flex;
     flex-direction: column;
     gap: 16px;
     padding: 24px 0px;
-    
+
 }
 
-ul>li>a{
+ul>li>a {
     display: flex;
 
     text-decoration: none;
@@ -76,8 +125,8 @@ ul>li>a{
 
     padding: 16px 24px;
 
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: var(--surface-color);
+    border: 1px solid var(--stroke-color);
     backdrop-filter: blur(4px);
     border-radius: 8px;
     color: var(--color-1);
@@ -86,13 +135,13 @@ ul>li>a{
     font-weight: 500;
 }
 
-ul>li>a:hover{
-    background: rgba(255, 255, 255, 0.05);
+ul>li>a:hover {
+    background: var(--surface-color-hover);
     border: 1px solid var(--color-1);
     padding: 18px;
 }
 
-.social-links{
+.social-links {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -104,12 +153,12 @@ ul>li>a:hover{
 
 }
 
-ion-icon{
+ion-icon {
     font-size: 25px;
-    color:white;  
+    color: var(--color-1);
 }
 
-.social-links a{
+.social-links a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,30 +166,28 @@ ion-icon{
 
     transition: background 0.2s;
     border-radius: 50%;
-    
+
 }
 
-.social-links a:hover{
-    background: rgba(255, 255, 255, 0.2);
+.social-links a:hover {
+    background: var(--height-color-hover);
     padding: 18px;
 }
-    
-footer{
+
+footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 24px;   
+    padding: 24px;
 }
 
-footer>p{
+footer>p {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: var(--color-1);
-    
-}
 
-        
+}
