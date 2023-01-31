@@ -7,7 +7,8 @@
     box-sizing: border-box;
 }
 .primary{
-    --color-: #8257E5
+    --color-: #8257E5;
+
 
 }
 
@@ -69,13 +70,13 @@ body {
 .butoes {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 32px;
 
 
     padding: 24px 16px;
-    width: 760px;
+    width: 865px;
     height: 64px;
 }
 
@@ -139,6 +140,7 @@ body {
 
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     align-items: flex-start;
     padding: 32px;
     gap: 32px;
@@ -150,7 +152,7 @@ body {
 .coluna{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 32px;
 
