@@ -1,0 +1,16 @@
+@charset "utf-8";
+body{
+    background: rgba(0, 106, 155, 0.555);
+    font: normal 15pt Arial}
+
+#bloco{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    background: cornflowerblue;
+    border-radius: 10PX;
+    padding: 15px;
+    width: 500px;
+    margin:auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);}
