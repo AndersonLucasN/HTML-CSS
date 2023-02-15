@@ -27,10 +27,20 @@ function verificar() {
       } else if (fsex[1].checked) {
          genero = 'Mulher'
          if (idade >= 0 && idade < 10) {
-
+            img.setAttribute('src', 'foto-bebe-f.png')
+         } else if (idade < 21) {
+            img.setAttribute('src', 'foto-jovem-f.png')
          }
-         res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
-
+         else if (idade<50){
+            img.setAttribute('src', 'foto-adulto-f.png')
+         }
+         else {
+            img.setAttribute('src', 'foto-idoso-f.png')
+         }
       }
+         res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
+         res.appendChild(img)
+
+         
    }
 }
