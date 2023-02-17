@@ -1,0 +1,41 @@
+@charset "UTf-8";
+body{
+    background: rgba(0, 106, 155, 0.555);
+    font: normal 15pt Arial;
+    text-align: center;
+}
+header{
+    text-align: center;
+
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: cornflowerblue;
+    border-radius: 10PX;
+    padding: 15px;
+    width: 500px;
+    margin:auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+
+}
+section#painel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section#resultado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    color: black;
+    text-align: center;
+    font-style: italic;
+
+}
