@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+body {
+    background: linear-gradient(296deg, rgb(218 158 255) 16.62%, #fbcfcf 85.61%);
+}
+
+.logo-tipo {
+    width: 120px;
+    height: 48px;
+}
+
+.logo-tipo>.imagem-da-logo {
+
+    position: absolute;
+    left: 6.67%;
+    right: 37.43%;
+    top: 2%;
+    bottom: 0%;
+}
+
+.aviso-rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 252px;
+    height: 18px;
+    left: 240px;
+    top: 851px;
+
+}
+
+.aviso-rodape>p {
+    width: 228px;
+    height: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+
+
+    color: #24282c;
+
+    opacity: 0.8;
+}
+
+.aviso-rodape>.aviso {
+    width: 16px;
+    height: 16px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+}
+
+.botoes>.botao-criptografar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+
+
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+
+    order: 0;
+    flex-grow: 1;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.botoes>.botao-descriptografar {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+
+    background: #D8DFE8;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
